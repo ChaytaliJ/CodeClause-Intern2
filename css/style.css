@@ -1,0 +1,98 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+h1 {
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(130, 187, 212));
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+
+.container {
+    max-width: 955px;
+    background-image: linear-gradient(rgb(159, 199, 228), rgb(43, 102, 127));
+    margin: auto;
+    height: 60vh;
+    border: 2px solid black;
+    box-shadow: 3px;
+    border-radius: 10px;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 25px;
+}
+
+.message {
+    background-color: rgb(255, 255, 255);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 1031px;
+    width: 100%;
+}
+
+#messageInp {
+    width: 80%;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    width:9%;
+}
+
+.send {
+    margin-top: -20px;
+    width: 100%;
+}
